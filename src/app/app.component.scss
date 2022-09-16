@@ -1,0 +1,13 @@
+.rainbow {
+  overflow: hidden;
+  position: absolute;
+  width: 1000px;
+  height: 560px;
+  bottom: 0;
+  left: calc(50% - 500px);
+
+  app-circle {
+    position: absolute;
+    border-radius: 100%;
+  }
+}
